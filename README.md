@@ -7,7 +7,7 @@ This project provides a ERC721 smart contract that allows you to mint unique NFT
 To deploy the smart contract follow the steps below.
 
 1. Install [Node.js](https://nodejs.org/en/download/)
-2. Clone the repository: `git clone https://github.com/algoexpert-io/ERC721-NFT.git`
+2. Clone the repository: `git clone https://github.com/jabbala/ERC721-NFT.git`
 3. `cd ERC721-NFT</minty`
 4. `npm link`
 5. `npm install`

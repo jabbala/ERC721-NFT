@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>NFT Viewer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="item">
+          <h3>Number of NFTS: <span id="numNfts"></span></h3>
+          <button onclick="getAllNFTs()">Update NFTS</button>
+        </div>
+      </div>
+    </div>
+    <div id="nfts"></div>
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
